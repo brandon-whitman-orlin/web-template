@@ -12,7 +12,7 @@ import "./App.css"; // Ensure global styles are imported
 
 const App = () => {
   return (
-    <div className="app-container" style={{ minHeight: '100%', width: '100%', overflowX: 'hidden'}}>
+    <div className="app-container" style={{ minHeight: '100%', width: '100%', overflowX: 'clip'}}>
       <Z_imagebackground /> {/* <--- Add this line here */}
       <Routes>
         <Route path="/" element={<Home />} />
